@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: python-k8s-app:latest
+        image: rathan13/python-app:8b9cd7762287304e0e7a3c472d25f0780dffddc7
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
