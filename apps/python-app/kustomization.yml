@@ -1,3 +1,4 @@
 resources:
+  - k8s-namespace.yml
   - k8s-deployment.yml
   - k8s-service.yml
